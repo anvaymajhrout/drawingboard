@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.canvas {
+    border: 2px solid #000;
+    background-color: #e6e6e6;
+    cursor: crosshair;
+}
+
+@import url('https://uiverse.io/css/buttons.css'); /* Importing uiverse button styles */
